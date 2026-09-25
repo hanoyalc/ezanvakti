@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/arkaplan_koyu"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvAlarmVakit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/beyaz"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAlarmSaat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:textColor="@color/vurgu"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btnDurdur"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/btn_kirmizi"
+        android:text="DURDUR"
+        android:textColor="@color/beyaz"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+</LinearLayout>

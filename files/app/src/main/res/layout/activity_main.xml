@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTarih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/yazi"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvSiradaki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:textColor="@color/arkaplan_koyu"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!-- Kurulum: eksik izin varsa görünür -->
+        <LinearLayout
+            android:id="@+id/kurulumKart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/kart_uyari"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvKurulum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/yazi"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/btnKurulum"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/btn_mavi"
+                android:textColor="@color/beyaz"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- 5 vakit -->
+        <LinearLayout
+            android:id="@+id/listVakitler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/kart"
+            android:orientation="vertical"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnAcKapa"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/beyaz"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Uyarı sesi"
+            android:textColor="@color/yazi"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgSes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btnDinle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_mavi"
+            android:text="DİNLE"
+            android:textColor="@color/beyaz"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSabahNot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/yazi_soluk"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnWidget"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_gri"
+            android:text="VAKİTLERİ ANA EKRANA EKLE"
+            android:textColor="@color/beyaz"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvKaynak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:textColor="@color/yazi_soluk"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

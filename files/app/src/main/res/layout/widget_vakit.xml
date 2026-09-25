@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wKok"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_arkaplan"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="4dp">
+        <TextView
+            android:id="@+id/wSiradaki"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:textColor="@color/vurgu"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Chronometer
+            android:id="@+id/wKalan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/vurgu"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/wKalanYedek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/vurgu"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wSatir0"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+        <TextView
+            android:id="@+id/wAd0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/beyaz"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/wSaat0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wSatir1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+        <TextView
+            android:id="@+id/wAd1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/beyaz"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/wSaat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wSatir2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+        <TextView
+            android:id="@+id/wAd2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/beyaz"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/wSaat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wSatir3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+        <TextView
+            android:id="@+id/wAd3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/beyaz"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/wSaat3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wSatir4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+        <TextView
+            android:id="@+id/wAd4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/beyaz"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/wSaat4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

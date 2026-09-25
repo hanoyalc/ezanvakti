@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/arkaplan</item>
+        <item name="android:colorPrimary">@color/arkaplan_koyu</item>
+        <item name="android:colorPrimaryDark">@color/arkaplan_koyu</item>
+        <item name="android:colorAccent">@color/yesil</item>
+        <item name="android:statusBarColor">@color/arkaplan_koyu</item>
+    </style>
+</resources>

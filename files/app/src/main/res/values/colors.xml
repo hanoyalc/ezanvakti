@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="arkaplan">#FFFDF8EE</color>
+    <color name="arkaplan_koyu">#FF0F2A3A</color>
+    <color name="yazi">#FF111111</color>
+    <color name="yazi_soluk">#FF444444</color>
+    <color name="beyaz">#FFFFFFFF</color>
+    <color name="vurgu">#FFFFD54F</color>
+    <color name="yesil">#FF1B7F3B</color>
+    <color name="kirmizi">#FFC62828</color>
+    <color name="gri">#FF757575</color>
+    <color name="satir_vurgu">#FFFFE082</color>
+    <color name="mavi">#FF1565C0</color>
+</resources>
